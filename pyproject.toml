@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-pythonweb-hw-03"
+version = "0.1.0"
+description = "Тема 3. Основи Web. Побудова простого HTTP сервера"
+authors = ["Serhii-Palamarchuk <serhiy.palamarchuk@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jinja2 = "^3.1.0"
+requests = "^2.32.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
